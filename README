@@ -1,0 +1,43 @@
+               _____  ______          _____  __  __ ______
+              |  __ \|  ____|   /\   |  __ \|  \/  |  ____|
+              | |__) | |__     /  \  | |  | | \  / | |__
+              |  _  /|  __|   / /\ \ | |  | | |\/| |  __|
+              | | \ \| |____ / ____ \| |__| | |  | | |____
+              |_|  \_\______/_/    \_\_____/|_|  |_|______|
+
+This  project  is  a  simple  implementation  of  a  neurale  network  tranning
+algorithm.  For starting  it will use the  sigmoide  activation  function. This
+project uses a dependency lib called libmatrix for the operations on matrices.
+
+----- DEPENDENCYS -----
+
+  libmatrix.a :
+    You need to clone a git repository, get the libmatrix.a and libmatrix.h
+    files and put them in the right directory.
+
+    Clone the repository and generate the needed files :
+      git clone https://github.com/LaTaupeEspagnole/matrix-prod-bench.git
+      cd matrix-prod-bench
+      make lib
+
+    Then copy the file 'matrix-prod-bench/libmatrix.a' in the root of this
+    project and the file 'matrix-prod-bench/includes/libmatrix.h' into the
+    includes directory of this project.
+
+
+----- BUILD -----
+
+  Build the project :
+    make          -> builds the project in release mode (-O3).
+    make debug    -> builds the project in debug mode (-g).
+
+
+----- USE -----
+
+  ./main          -> starts the program.
+  (Section to complet)
+
+
+----- AUTHORS -----
+
+  Sébastien GOUBEAU (sebastiengou@outlook.fr)
