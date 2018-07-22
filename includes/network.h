@@ -25,4 +25,5 @@ struct network* init_network(unsigned nb_layers, unsigned* size_layers);
 char* serialize_network(struct network* network);
 
 struct network* deserialize_network(char* str);
+
 #endif /* !NETWORK_H */

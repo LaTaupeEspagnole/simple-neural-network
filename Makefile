@@ -21,5 +21,10 @@ debug: main
 
 # --- Cleanng targets ---
 
+clean-all: clean clean-deps
+
 clean:
 	$(RM) $(OBJS) main
+
+clean-deps:
+	$(RM) libmatrix.a includes/libmatrix.h

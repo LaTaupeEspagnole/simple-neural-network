@@ -32,7 +32,7 @@ struct network* init_network(unsigned nb_layers, unsigned* size_layers)
       err_print_and_quit("ERROR: Can't declare matrix", 43);
   }
   network->activation_func = NULL;
-  network->nb_epoch = 0;;
+  network->nb_epoch = 0;
   network->learning_rate = 0.0f;
   network->last_succes_rate = 0.0f;
   network->time_runing = 0;

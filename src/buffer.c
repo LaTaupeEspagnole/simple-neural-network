@@ -67,11 +67,7 @@ void free_buffer(struct buffer *buffer)
   if (!buffer)
     return;
 
-  if (!buffer->buffer)
-    free(buffer);
-  else
-  {
+  if (buffer->buffer)
     free(buffer->buffer);
-    free(buffer);
-  }
+  free(buffer);
 }
